@@ -1,0 +1,11 @@
+services:
+    service_one:
+        class: ArrayObject
+        calls:
+            - [ offsetSet, ['sv', '@service_two'] ]
+
+    service_two:
+        class: ArrayObject
+        arguments:
+            -
+                source: '@service_one'

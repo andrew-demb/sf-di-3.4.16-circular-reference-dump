@@ -1,0 +1,8 @@
+{
+    "name": "lalshe/sf-di-3.4.16-bug",
+    "require": {
+        "symfony/dependency-injection": "3.4.16",
+        "symfony/yaml": "^4.1",
+        "symfony/config": "^4.1"
+    }
+}
